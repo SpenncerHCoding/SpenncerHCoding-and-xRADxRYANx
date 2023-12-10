@@ -5,10 +5,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
         document.body.innerHTML = "Hello, I am a JavaScript programmer!";
+        window.onload = function() {
+            var btn = document.getElementById("btn");
+            btn.onclick = function() {
+                alert("Welcome to SpennerHCoding and xRADxRYANx's Website!");
+            }
+                document.body.appendChild(btn);
+        }
         </script>
         <body> 
         <h1>SpencerHCoding and xRADxRYANx</h1>
-        <p>Hello!! This is a project that is being made by me and you!</p>
+        <p>Hello!! This is a project that is being made by me and my dad!</p>
         <h3> Why are we making this?</h3>
         <ol> 
             <li>
@@ -30,5 +37,6 @@
         <img src="images/Flowers.jpg" alt="flowers">
         <figcaption> Photograph taken by Spencer Henricksen(SpenncerHCoding)</figcaption>
         </body>
+        
 </head>
 </html>
